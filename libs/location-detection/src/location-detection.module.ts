@@ -7,7 +7,7 @@ import { CommonModule } from '@angular/common';
 export class LocationDetectionModule {
 
   public getLocation(): string {
-    return 'Miami';
+    return 'New York';
   }
 
 }
