@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { LocationDetectionModule } from '@nx-poc/location-detection';
 
 @Component({
   selector: 'app-root',
@@ -6,7 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  constructor() {}
 
-  ngOnInit() {}
+  public location: string;
+
+  constructor(private locationService: LocationDetectionModule) {}
+
+  ngOnInit() {
+    this.location = this.locationService.getLocation();
+  }
 }

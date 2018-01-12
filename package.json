@@ -18,7 +18,10 @@
     "format": "node ./node_modules/@nrwl/schematics/src/command-line/format.js write",
     "format:write": "node ./node_modules/@nrwl/schematics/src/command-line/format.js write",
     "format:check": "node ./node_modules/@nrwl/schematics/src/command-line/format.js check",
-    "nx-migrate": "node ./node_modules/@nrwl/schematics/src/command-line/nx-migrate.js"
+    "nx-migrate": "node ./node_modules/@nrwl/schematics/src/command-line/nx-migrate.js",
+    "customer-portal": "ng serve --app=customer-portal --port=4200",
+    "shop-locator": "ng serve --app=shop-locator --port=4201",
+    "weather": "ng serve --app=weather --port=4202"
   },
   "private": true,
   "dependencies": {

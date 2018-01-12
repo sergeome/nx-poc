@@ -4,4 +4,10 @@ import { CommonModule } from '@angular/common';
 @NgModule({
   imports: [CommonModule]
 })
-export class LocationDetectionModule {}
+export class LocationDetectionModule {
+
+  public getLocation(): string {
+    return 'Miami';
+  }
+
+}
