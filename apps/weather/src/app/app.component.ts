@@ -7,7 +7,6 @@ import { LocationDetectionModule } from '@nx-poc/location-detection';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-
   public location: string;
 
   constructor(private locationService: LocationDetectionModule) {}

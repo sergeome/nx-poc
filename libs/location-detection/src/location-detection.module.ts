@@ -5,9 +5,7 @@ import { CommonModule } from '@angular/common';
   imports: [CommonModule]
 })
 export class LocationDetectionModule {
-
   public getLocation(): string {
     return 'Miami';
   }
-
 }
